@@ -1,5 +1,6 @@
 package com.e.healthynutrition;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -23,6 +24,10 @@ public class dashboard extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick ( View v ) {
+                Intent intent = new Intent(dashboard.this, caseform.class);
+                startActivity(intent);
+
+
                 Toast.makeText(getApplicationContext(), "Opens case entry form",
                         Toast.LENGTH_SHORT).show();
 

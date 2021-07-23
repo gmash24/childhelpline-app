@@ -13,7 +13,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -23,16 +22,27 @@
             android:value="true" />
 
         <activity
-            android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            android:name=".caseform"
+            android:label="@string/title_activity_casereport">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".dashboard"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+
+        <activity
+            android:name=".dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
