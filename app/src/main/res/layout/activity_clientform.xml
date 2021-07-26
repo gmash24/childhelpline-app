@@ -5,7 +5,7 @@
 
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".caseform"
+    tools:context=".clientform"
     android:orientation="vertical">
     <ScrollView
         android:layout_width="match_parent"
@@ -231,7 +231,7 @@
                     android:layout_margin="10dp"/>
             </RadioGroup>
 
-                <TextView
+            <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

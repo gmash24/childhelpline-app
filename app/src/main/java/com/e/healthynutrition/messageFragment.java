@@ -3,6 +3,8 @@ package com.e.healthynutrition;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +15,8 @@ import android.view.ViewGroup;
  * Use the {@link messageFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
+
+
 public class messageFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match

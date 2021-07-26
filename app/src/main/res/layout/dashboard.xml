@@ -7,21 +7,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".dashboard">
+
     <FrameLayout
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:id="@+id/frame_layout"/>
+        android:layout_height="200dp"
+        android:layout_weight="1">
 
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    </FrameLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:src="@drawable/ic_new_case"
-        app:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="#fff"
         app:elevation="6dp"
         app:fabSize="normal" />
 
@@ -30,10 +31,10 @@
         android:layout_width="match_parent"
         android:id="@+id/bottom_navigation"
         app:mbn_circleColor="#fff"
-        app:mbn_selectedIconColor="#fff"
+        app:mbn_selectedIconColor="#010203"
         app:mbn_countTextColor="@color/colorPrimaryDark"
-        app:mbn_countBackgroundColor="#ff6f00"
-        app:mbn_defaultIconColor="@color/colorPrimary"
+        app:mbn_countBackgroundColor="#ff0006"
+        app:mbn_defaultIconColor="#fff"
         app:mbn_backgroundBottomColor="#3c415e" />
 
 
