@@ -22,6 +22,8 @@ public class caseform extends AppCompatActivity{
             @Override
             public void onClick ( View v )
             {
+
+
                 Intent intent = new Intent(caseform.this, clientform.class);
                 startActivity(intent);
 

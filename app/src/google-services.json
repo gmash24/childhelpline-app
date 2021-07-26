@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467332064626",
+    "project_id": "childhelpline-5e6f0",
+    "storage_bucket": "childhelpline-5e6f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467332064626:android:c26152503957412e2669eb",
+        "android_client_info": {
+          "package_name": "com.e.healthynutrition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467332064626-ip8mckg3p9vobjg2rn2ecien5r9hq2t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRj8dnY6p0xTn4PKAItHO6DECunt1vB7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467332064626-ip8mckg3p9vobjg2rn2ecien5r9hq2t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

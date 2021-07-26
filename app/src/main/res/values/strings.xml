@@ -11,7 +11,7 @@
     <string name="email">Email</string>
     <string name="name">Name</string>
     <string name="clientname">Enter reporter"s name</string>
-
+    <string name="write_a_message">Write a message</string>
     <string name="sex">Sex</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
