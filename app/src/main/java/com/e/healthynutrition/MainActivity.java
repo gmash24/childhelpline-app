@@ -13,6 +13,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 
@@ -38,6 +42,24 @@ public class MainActivity extends AppCompatActivity {
                 email = mail.getText().toString();
                 pass = pswd.getText().toString();
 
+                if(FirebaseAuth.getInstance().getCurrentUser() == null)
+                {
+                    // Start sign in/sign up activity
+                    startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build()
+                    );
+
+                }
+                else
+                    {
+                    // User is already signed in. Therefore, display
+                    // a welcome Toast
+                    Toast.makeText(MainActivity.this, "Welcome " + FirebaseAuth.getInstance().getCurrentUser().getDisplayName(), Toast.LENGTH_LONG)
+                            .show();
+
+                    // Load chat room contents
+                    displayChatMessages();
+                }
+
                 if(email.equals("")){
                     mail.setError("can't be blank");
                 }
@@ -53,8 +75,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);}
 
             }
+
+            private void startActivityForResult ( Intent build ) {
+            }
         });
 
+    }
+
+
+    private void displayChatMessages () {
     }
 }
 

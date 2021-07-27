@@ -20,7 +20,7 @@ public class perpetratorform extends AppCompatActivity {
             @Override
             public void onClick ( View v )
             {
-                Intent intent = new Intent(perpetratorform.this, dashboard.class);
+                Intent intent = new Intent(perpetratorform.this, chat.class);
                 startActivity(intent);
 
             }

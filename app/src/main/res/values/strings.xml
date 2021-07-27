@@ -58,4 +58,5 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_casereport">casereport</string>
     <string name="title_activity_clientform">clientform</string>
+    <string name="title_activity_agentscaselist">agentscaselist</string>
 </resources>
