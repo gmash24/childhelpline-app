@@ -59,4 +59,5 @@
     <string name="title_activity_casereport">casereport</string>
     <string name="title_activity_clientform">clientform</string>
     <string name="title_activity_agentscaselist">agentscaselist</string>
+    <string name="title_activity_agent_profile">AgentProfile</string>
 </resources>

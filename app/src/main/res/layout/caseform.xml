@@ -46,7 +46,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/et_email"
+                android:id="@+id/ppnamee"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -70,7 +70,7 @@
 
 
             <EditText
-                android:id="@+id/et_password"
+                android:id="@+id/ppagee"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -136,7 +136,7 @@
             </TextView>
 
             <EditText
-
+                android:id="@+id/ppresidencee"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -158,7 +158,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-
+                android:id="@+id/ppidnoo"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -180,7 +180,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-
+                android:id="@+id/ppemaill"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -240,7 +240,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-
+                android:id="@+id/ppstatuss"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"

@@ -16,22 +16,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+
+        <activity
+            android:name=".AgentProfile"
+            android:label="@string/title_activity_agent_profile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".agentscaselist"
             android:label="@string/title_activity_agentscaselist">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".chat"
             android:label="chat">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"></action></intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
         </activity>
-
         <activity
             android:name=".clientform"
             android:label="@string/title_activity_clientform">
@@ -44,6 +50,7 @@
             android:label="@string/title_activity_casereport">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
             </intent-filter>
         </activity>
         <activity

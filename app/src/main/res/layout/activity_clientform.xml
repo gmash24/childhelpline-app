@@ -14,6 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:elevation="4dp"
+
             android:background="@drawable/formcolor"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -24,14 +25,16 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:text="@string/caseform"
+                android:textStyle="bold"
                 android:textSize="30sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textAlignment="center"
                 android:layout_marginStart="25dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/casedetails"
+                android:text="Enter Client Details"
                 android:textSize="20sp" />
 
             <TextView
@@ -46,7 +49,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/et_email"
+                android:id="@+id/clientname"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -70,7 +73,7 @@
 
 
             <EditText
-                android:id="@+id/et_password"
+                android:id="@+id/clientage"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -136,7 +139,7 @@
             </TextView>
 
             <EditText
-
+                android:id="@+id/clientresidence"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -158,7 +161,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-
+                android:id="@+id/clientidno"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -180,7 +183,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-
+                android:id="@+id/clientemail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -240,7 +243,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-
+                android:id="@+id/clientstatus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
