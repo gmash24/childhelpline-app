@@ -13,6 +13,9 @@ public class vpadapter extends FragmentPagerAdapter {
 
     private final ArrayList<Fragment> fragmentArrayList= new ArrayList<>();
     private final ArrayList<String> fragmentTitle= new ArrayList<>();
+    client frag1;
+    repoter frag2;
+    abuser frag3;
 
 
     public vpadapter ( @NonNull FragmentManager fm, int behavior ) {
@@ -22,7 +25,19 @@ public class vpadapter extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem ( int position ) {
-        return fragmentArrayList.get(position);
+        switch (position){
+            case 0:
+                frag1 = new client();
+                return frag1;
+            case 1:
+                frag2= new repoter();
+                return  frag2;
+            case 2:
+                frag3= new abuser();
+                return  frag3;
+        }
+                return null;
+      //  return fragmentArrayList.get(position);
     }
 
     @Override

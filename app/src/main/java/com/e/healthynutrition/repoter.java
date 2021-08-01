@@ -18,6 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class repoter extends Fragment {
     Button loginn;
+
     EditText clname,clstatus,clage,clemail,clresidence,clgender,cltribe,clidno;
     EditText ppname,ppstatuse,ppage,ppemail,ppresidence,ppidno;
     DatabaseReference reff;
@@ -25,8 +26,10 @@ public class repoter extends Fragment {
 
     @Override
     public View onCreateView ( LayoutInflater inflater, ViewGroup container,
-                               Bundle savedInstanceState ) {
-       ppname = (EditText)getView().findViewById(R.id.ppnamee);
+                               Bundle savedInstanceState )
+    {
+
+      /*
         ppstatuse = getView().findViewById(R.id.ppstatuss);
         ppage =getView().findViewById(R.id.ppagee);
         ppemail =getView().findViewById(R.id.ppemaill);
@@ -38,13 +41,13 @@ public class repoter extends Fragment {
         clage=getView().findViewById(R.id.clientage);
         clemail=getView().findViewById(R.id.clientemail);
         clresidence=getView().findViewById(R.id.clientresidence);
-        clidno=getView().findViewById(R.id.clientidno);
+        clidno=getView().findViewById(R.id.clientidno);*/
 
         //firebase databse reference
         reff= FirebaseDatabase.getInstance("https://childhelpline-5e6f0-default-rtdb.firebaseio.com/").getReference().child("clientinfo");
 
 
-        loginn.setOnClickListener(new View.OnClickListener() {
+     /* loginn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick ( View v ) {
                 insertinfo();
@@ -54,11 +57,14 @@ public class repoter extends Fragment {
 
             }
         });
-
+*/
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_repoter, container, false);
     }
 
+    /*public String getData(){
+        return edittext.getString().toString();
+    }*/
     private void insertinfo(){
         String pname=ppname.getText().toString();
         String pstatus=ppstatuse.getText().toString();

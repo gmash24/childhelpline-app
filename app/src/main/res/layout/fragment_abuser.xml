@@ -4,13 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".abuser">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_gravity="center"
-
         android:layout_height="match_parent"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:context=".perpetratorform"
         android:orientation="vertical">
         <ScrollView
             android:layout_width="match_parent"
@@ -257,17 +256,6 @@
                     android:padding="15dp"
                     android:textSize="15sp" />
 
-
-                <Button
-                    android:id="@+id/btn_login"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@drawable/btn_custom"
-                    android:text="@string/submit"
-                    android:textColor="@android:color/white" />
 
 
             </LinearLayout>
