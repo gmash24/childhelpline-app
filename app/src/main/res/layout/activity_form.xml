@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
-                android:text="@string/clientname"
+                android:text="Enter client name"
                 android:layout_marginBottom="10dp"
                 android:textSize="20sp">
 
@@ -51,7 +51,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/et_custom"
-                android:hint="@string/clientname"
+                android:hint="Client name"
                 android:inputType="textEmailAddress"
                 android:padding="15dp"
                 android:layout_marginBottom="10dp"
@@ -129,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
-                android:text="@string/residence"
+                android:text="CLient residence"
                 android:textSize="20sp">
 
             </TextView>
@@ -142,7 +142,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/et_custom"
-                android:hint="@string/residence"
+                android:hint="Enter Client Residence"
                 android:layout_marginBottom="10dp"
                 android:inputType="textPassword"
                 android:padding="15dp"
@@ -251,28 +251,6 @@
                 android:padding="15dp"
                 android:textSize="15sp" />
 
-
-
-
-
-            <LinearLayout
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_gravity="center"
-                android:layout_height="match_parent"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:orientation="vertical">
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:orientation="vertical"
-                    android:layout_height="match_parent">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:elevation="4dp"
-
-                        android:background="@drawable/formcolor"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -511,25 +489,9 @@
                             android:textSize="15sp" />
 
 
-                    </LinearLayout>
-                </ScrollView>
-                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_height="match_parent"
-                    xmlns:tools="http://schemas.android.com/tools"
-                    android:orientation="vertical">
-                    <ScrollView
-                        android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:elevation="4dp"
 
-                            android:background="@drawable/formcolor"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
+
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -778,28 +740,7 @@
                                 android:textColor="@android:color/white" />
 
 
-
-
-
-
                         </LinearLayout>
-                    </ScrollView>
-
-
-                </LinearLayout>
-
-
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-
-
-
     </ScrollView>
-
-
 
 </LinearLayout>

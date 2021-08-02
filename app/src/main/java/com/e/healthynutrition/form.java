@@ -36,7 +36,7 @@ public class form extends AppCompatActivity {
         submit=findViewById(R.id.btn_login);
         clientname = findViewById(R.id. clientnamee);
         clientstatus = findViewById(R.id.clientstatuss);
-        clientage = findViewById(R.id.  clientage);
+        clientage = findViewById(R.id.clientagee);
         clientemail = findViewById(R.id.  clientemaill);
         clientresidence = findViewById(R.id.clientresidencee);
         clientidno = findViewById(R.id.clientidnoo);
@@ -100,6 +100,16 @@ public class form extends AppCompatActivity {
         String cidno = clientidno.getText().toString();
         String cemail =  clientemail.getText().toString();
         String cstatus = clientstatus .getText().toString();
+
+        //constructor with required fields
+        forminfo forminfo = new forminfo(
+                cname,cage,cresidence,cidno,cemail,cstatus,
+                rname,rage,rresidence,ridno,remail,rstatus,
+                aname,apage,aresidence,aidno,aemail,astatus);
+
+        //generates a new id with every insertion in db
+        reff.push().setValue(forminfo);
+        Toast.makeText(form.this,"data inserted",Toast.LENGTH_SHORT).show();
 
 
     }
