@@ -24,7 +24,7 @@ public class dashboard extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick ( View v ) {
-                Intent intent = new Intent(dashboard.this, caseform.class);
+                Intent intent = new Intent(dashboard.this, form.class);
                 startActivity(intent);
 
 
