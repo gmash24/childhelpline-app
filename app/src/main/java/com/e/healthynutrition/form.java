@@ -79,20 +79,20 @@ public class form extends AppCompatActivity {
     //method to insert in db
     private void insertinfo() {
 
-        String aname = abusername.getText().toString();
-        String apage = abuserage.getText().toString();
-        String aresidence = abuserresidence.getText().toString();
-        String aidno = abuseridno.getText().toString();
-        String aemail = abuseremail.getText().toString();
-        String astatus = abuserstatus.getText().toString();
+        String abuser_name = abusername.getText().toString();
+        String abuser_page = abuserage.getText().toString();
+        String abuser_residence = abuserresidence.getText().toString();
+        String abuser_idno = abuseridno.getText().toString();
+        String abuser_email = abuseremail.getText().toString();
+        String abuser_status = abuserstatus.getText().toString();
 
         //reporter values
-        String rname =  reportername.getText().toString();
-        String rage = reporterage.getText().toString();
-        String rresidence = reporterresidence.getText().toString();
-        String ridno = reporteridno.getText().toString();
-        String remail = reporteremail.getText().toString();
-        String rstatus = reporterstatus.getText().toString();
+        String reporter_name =  reportername.getText().toString();
+        String reporter_age = reporterage.getText().toString();
+        String reporter_residence = reporterresidence.getText().toString();
+        String reporter_idno = reporteridno.getText().toString();
+        String reporter_email = reporteremail.getText().toString();
+        String reporter_status = reporterstatus.getText().toString();
 
         String cname = clientname.getText().toString();
         String cage =  clientage .getText().toString();
@@ -104,8 +104,8 @@ public class form extends AppCompatActivity {
         //constructor with required fields
         forminfo forminfo = new forminfo(
                 cname,cage,cresidence,cidno,cemail,cstatus,
-                rname,rage,rresidence,ridno,remail,rstatus,
-                aname,apage,aresidence,aidno,aemail,astatus);
+                reporter_name,reporter_age,reporter_residence,reporter_idno,reporter_email,reporter_status,
+                abuser_name,abuser_page,abuser_residence,abuser_idno,abuser_email,abuser_status);
 
         //generates a new id with every insertion in db
         reff.push().setValue(forminfo);

@@ -11,22 +11,22 @@ public class forminfo {
     String status;
 
     //abuser info
-    String aaname;
-    String aaage;
-    String aaidno;
-    String aaresidence;
-    String aagender;
-    String aaemail;
-    String aastatus;
+    String abusername;
+    String abuserage;
+    String abuseridno;
+    String abuserresidence;
+    String abusergender;
+    String abuseremail;
+    String abuserstatus;
 
     //reporter variables
-    String rrname;
-    String rrage;
-    String rridno;
-    String rrresidence;
-    String rrgender;
-    String rremail;
-    String rrstatus;
+    String reportername;
+    String reporterage;
+    String reporteridno;
+    String repoterresidence;
+    String repotergender;
+    String reporteremail;
+    String reporterstatus;
 
     public String getName () {
         return name;
@@ -57,64 +57,64 @@ public class forminfo {
     }
 
     public String getAaname () {
-        return aaname;
+        return abusername;
     }
 
     public String getAaage () {
-        return aaage;
+        return abuserage;
     }
 
     public String getAaidno () {
-        return aaidno;
+        return abuseridno;
     }
 
     public String getAaresidence () {
-        return aaresidence;
+        return abuserresidence;
     }
 
     public String getAagender () {
-        return aagender;
+        return abusergender;
     }
 
     public String getAaemail () {
-        return aaemail;
+        return abuseremail;
     }
 
     public String getAastatus () {
-        return aastatus;
+        return abuserstatus;
     }
 
     public String getRrname () {
-        return rrname;
+        return reportername;
     }
 
     public String getRrage () {
-        return rrage;
+        return reporterage;
     }
 
     public String getRridno () {
-        return rridno;
+        return reporteridno;
     }
 
     public String getRrresidence () {
-        return rrresidence;
+        return repoterresidence;
     }
 
     public String getRrgender () {
-        return rrgender;
+        return repotergender;
     }
 
     public String getRremail () {
-        return rremail;
+        return reporteremail;
     }
 
     public String getRrstatus () {
-        return rrstatus;
+        return reporterstatus;
     }
 
     public forminfo ( String name, String age,  String residence,String idno, String email,String status,
-                      String aaname, String aaage, String aaresidence, String aaidno,String aaemail, String aastatus,
-                      String rrname, String rrage,  String rrresidence,String rridno, String rremail, String rrstatus ) {
+                      String abuser_name, String abuser_age, String abuser_residence, String abuser_idno,String abuser_email, String abuser_status,
+                      String reporter_name, String reporter_age,  String reporter_residence,String reporter_idno, String reporter_email, String reporter_status ) {
         this.name = name;
         this.age = age;
         this.idno = idno;
@@ -122,20 +122,20 @@ public class forminfo {
         this.gender = gender;
         this.email = email;
         this.status = status;
-        this.aaname = aaname;
-        this.aaage = aaage;
-        this.aaidno = aaidno;
-        this.aaresidence = aaresidence;
-        this.aagender = aagender;
-        this.aaemail = aaemail;
-        this.aastatus = aastatus;
-        this.rrname = rrname;
-        this.rrage = rrage;
-        this.rridno = rridno;
-        this.rrresidence = rrresidence;
-        this.rrgender = rrgender;
-        this.rremail = rremail;
-        this.rrstatus = rrstatus;
+        this.abusername = abuser_name;
+        this.abuserage = abuser_age;
+        this.abuseridno = abuser_idno;
+        this.abuserresidence = abuser_residence;
+
+        this.abuseremail = abuser_email;
+        this.abuserstatus = abuser_status;
+        this.reportername = reporter_name;
+        this.reporterage = reporter_age;
+        this.reporteridno = reporter_idno;
+        this.repoterresidence = reporter_residence;
+
+        this.reporteremail = reporter_email;
+        this.reporterstatus = reporter_status;
     }
 
 
